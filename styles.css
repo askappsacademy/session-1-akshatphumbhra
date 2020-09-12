@@ -1,0 +1,56 @@
+body{
+  background-color: white;
+  margin: 0;
+}
+
+.container{
+  text-align: center;
+  background-color: green;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.heading{
+  z-index: 1;
+  width: 800px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin : 0 auto;
+  padding: 0;
+  font-size: 30px;
+}
+
+#video{
+position: fixed;
+width: 800px;
+height: 400px;
+text-align: center;
+background-image: url("../img/video.png");
+}
+
+.video{
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 798px;
+  display: inline-block;
+}
+
+.video img{
+  float: left;
+}
+#video_list{
+  padding-top: 52%;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 5px;
+}
+
+.video:hover{
+  background-color: lightgreen;
+  cursor: pointer;
+}
